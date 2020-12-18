@@ -1,0 +1,232 @@
+
+/*gutter fix for desktop*/
+body {
+  overflow-x: hidden;
+  color:black;
+}
+
+/*Hidden gutter fix for Mobile View */
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+
+/* Navigation Styling */
+.navbar,
+.navbar-inverse {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  min-height: 80px;
+  font-size: large; 
+  background-color: #faf4f6 !important;
+}
+
+/*Padding - Section Titles will appear top of screen when using Nav Links */
+#Bio {
+  padding-top: 100px;
+}
+
+#WorkExperience {
+  padding-top: 100px;
+}
+
+#Education {
+  padding-top: 100px;
+}
+
+#Portfolio {
+  padding-top: 100px;
+}
+
+#Contact {
+  padding-top: 100px;
+}
+
+/* Text color */
+.dark-maroon-text {
+  color: #550222 ;
+}
+
+/* Styling in header */
+.name {
+  color:#550222;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.lead{
+  color:grey;
+  text-align: center;
+}
+
+.media {
+  justify-content: center;
+}
+
+.bottomheaderborder {
+  background-color: #550222;
+  padding: 35px;
+}
+
+/* Font size styling */
+h3 {
+  color: #550222;
+}
+
+h4 {
+  color: #550222;
+}
+
+h5 {
+  color:  #550222;
+}
+
+ 
+/* Styling in About Me Section */
+.Hello {
+  padding-bottom: 25px;
+  color:  #550222;
+}
+
+.WorkExperience {
+  padding: 25px;
+}
+
+#WkExp {
+   background-color:  #550222;
+   padding: 35px;
+   text-align: center;
+   width: 100%;
+}
+
+#mktExp {
+  color: white;
+}
+
+#prExp {
+  color: white;
+}
+
+#pmExp {
+  color: white;
+}
+
+#acaExp {
+  color: white;
+}
+
+
+.education {
+  padding-top: 10px;
+  margin-top: 50px;
+}
+
+/* Styling for Portfolio Section */
+.WebDev {
+  padding-top: 25px;    
+}
+
+.card {
+  text-align: center;
+  margin-bottom: 50px; 
+  align-content: space-around;
+  display: flex;
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  /* object-fit: cover;   this item was recommended but it skews the images. */
+}
+
+/* Styling for Contact Form */
+.form-group {
+  color:  #550222;
+}
+
+
+/* Styling for Buttons */
+.btn-send { 
+  color: #FFFFFF; 
+  background-color: #550222; 
+  border-color: #550222; 
+  padding: 10px;
+  border-radius: 5px;
+} 
+
+/* Thank you Bootstrap Button Generator for easy button styling - https://blog.koalite.com/bbg/ */
+.btn-send:hover {
+  color: #550222;
+  background-color: #faf4f6; 
+  border-color: #550222;
+}
+.btn-send:focus, 
+.btn-send:active, 
+.btn-send.active, 
+.open .dropdown-toggle.btn-send { 
+  color: #FFFFFF; 
+  background-color: #faf4f6; 
+  border-color: #550222; 
+} 
+ 
+.btn-send:active, 
+.btn-send.active, 
+.open .dropdown-toggle.btn-send { 
+  background-image: none; 
+} 
+ 
+.btn-send.disabled, 
+.btn-send[disabled], 
+fieldset[disabled] .btn-send, 
+.btn-send.disabled:hover, 
+.btn-send[disabled]:hover, 
+fieldset[disabled] .btn-send:hover, 
+.btn-send.disabled:focus, 
+.btn-send[disabled]:focus, 
+fieldset[disabled] .btn-send:focus, 
+.btn-send.disabled:active, 
+.btn-send[disabled]:active, 
+fieldset[disabled] .btn-send:active, 
+.btn-send.disabled.active, 
+.btn-send[disabled].active, 
+fieldset[disabled] .btn-send.active { 
+  background-color: #550222; 
+  border-color: #550222; 
+} 
+ 
+.btn-send .badge { 
+  color: #550222; 
+  background-color: #FFFFFF; 
+}
+
+#emailBtn {
+  padding-right: 38px;
+  padding-left: 38px;
+}
+
+/* Styling for social media icons */
+.iconDiv {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  margin-left: 30%;
+  padding-bottom: 20px;
+}
+
+#icons {
+  color: #550222;
+  padding: 50px;
+}
+
+/* Styling for Footer */
+.footer-full-width {
+  background-color: lightgrey;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: .5px;
+}
